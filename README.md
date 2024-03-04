@@ -45,15 +45,15 @@ __Visual Studio Code__
 - Break y continue [[code]][break y continue]
 
 ## 4. Funciones
-- Declaracion de funciones
-- Parametros y valores de retorno
-- Funciones con nombre
-- Funciones anidadas
-- Funciones con expresiones lambda
-- Funciones con parametros de tipo de clase generica
-- Funciones con parametros opcionales y valores por defecto
-- Funciones con parametros variables
-- Funciones de extension
+- Declaracion de funciones [[code]][Declaracion de funciones]
+- Parametros y valores de retorno [[code]][Parametros y valores de retorno]
+- Funciones con nombre [[code]][Funciones con nombre]
+- Funciones anidadas [[code]][Funciones anidadas]
+- Funciones con expresiones lambda [[code]][Funciones con expresiones lambda]
+- Funciones con parametros de tipo de clase generica [[code]][Funciones con parametros de tipo de clase generica]
+- Funciones con parametros opcionales y valores por defecto [[code]][Funciones con parametros opcionales y valores por defecto]
+- Funciones con parametros variables [[code]][Funciones con parametros variables]
+- Funciones de extension [[code]][Funciones de extension]
 
 [declaracion de variables]: /1.%20Declaracion%20de%20variables/01.declaracion_de_variables_con_var_y_val.kt
 [asignacion de valores]: /1.%20Declaracion%20de%20variables/02.asignacion_de_valores.kt
