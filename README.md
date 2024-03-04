@@ -12,12 +12,12 @@ __Eclipse__
 - Mediante el plugin `Kotlin Eclipse` se proporciona soporte para el lenguaje
 
 __Android Studio__
-- IDE oficila para desarrollar aplicaciones Android
+- IDE oficial para desarrollar aplicaciones Android
 - Incluye integracion nativa con Kotlin
 
 __Visual Studio Code__
 - IDE multiplataforma y ligero.
-- Permite desarrollar proyectos de Kotlin en distintas plataformas.
+- Permite desarrollar proyectos de Kotlin en distintas plataformas
 
 ## Contenido
 
@@ -44,6 +44,17 @@ __Visual Studio Code__
 - Bucle "do while" [[code]][bucle do while]
 - Break y continue [[code]][break y continue]
 
+## 4. Funciones
+- Declaracion de funciones
+- Parametros y valores de retorno
+- Funciones con nombre
+- Funciones anidadas
+- Funciones con expresiones lambda
+- Funciones con parametros de tipo de clase generica
+- Funciones con parametros opcionales y valores por defecto
+- Funciones con parametros variables
+- Funciones de extension
+
 [declaracion de variables]: /1.%20Declaracion%20de%20variables/01.declaracion_de_variables_con_var_y_val.kt
 [asignacion de valores]: /1.%20Declaracion%20de%20variables/02.asignacion_de_valores.kt
 [inicializacion de variables]: /1.%20Declaracion%20de%20variables/03.inicializacion_de_variables.kt
@@ -63,5 +74,15 @@ __Visual Studio Code__
 [bucle while]: /3.%20Bucles/03.bucle_while.kt
 [bucle do while]: /3.%20Bucles/04.bucle_do_while.kt
 [break y continue]: /3.%20Bucles/05.break_y_continue.kt
+
+[Declaracion de funciones]: /4.%20Funciones/01.declaracion_de_funciones.kt
+[Parametros y valores de retorno]: /4.%20Funciones/02.parametros_y_valores_de_retorno.kt
+[Funciones con nombre]: /4.%20Funciones/03.funciones_con_nombre.kt
+[Funciones anidadas]: /4.%20Funciones/04.funciones_anidadas.kt
+[Funciones con expresiones lambda]: /4.%20Funciones/05.funciones_con_expresiones_lambda.kt
+[Funciones con parametros de tipo de clase generica]: /4.%20Funciones/06.funciones_con_parametros_de_tipo_de_clase_generica.kt
+[Funciones con parametros opcionales y valores por defecto]: /4.%20Funciones/07.funciones_con_parametros_opcionales_y_valores_por_defecto.kt
+[Funciones con parametros variables]: /4.%20Funciones/08.funciones_con_parametros_variables.kt
+[Funciones de extension]: /4.%20Funciones/09.funciones_de_extension.kt
 
 [kotlin online]: https://play.kotlinlang.org/#eyJ2ZXJzaW9uIjoiMS45LjIyIiwicGxhdGZvcm0iOiJqYXZhIiwiYXJncyI6IiIsIm5vbmVNYXJrZXJzIjp0cnVlLCJ0aGVtZSI6ImlkZWEiLCJjb2RlIjoiLyoqXG4gKiBZb3UgY2FuIGVkaXQsIHJ1biwgYW5kIHNoYXJlIHRoaXMgY29kZS5cbiAqIHBsYXkua290bGlubGFuZy5vcmdcbiAqL1xuZnVuIG1haW4oKSB7XG4gICAgcHJpbnRsbihcIkhlbGxvLCB3b3JsZCEhIVwiKVxufSJ9
