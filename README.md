@@ -21,7 +21,7 @@ __Visual Studio Code__
 
 ## Contenido
 
-1. Declaracion de variables
+### 1. Declaracion de variables
 - Declaracion de variables con var y val [[code]][declaracion de variables]
 - Asignacion de valores [[code]][asignacion de valores]
 - Inicializacion de variables [[code]][inicializacion de variables]
@@ -33,6 +33,10 @@ __Visual Studio Code__
 - Null safety [[code]][null safety]
 - Declaracion de variables sin tipo [[code]][declaracion de variables sin tipo]
 
+### 2. Estructuras condicionales
+- Sentencia "if"
+- Sentencia "when"
+
 [declaracion de variables]: /1.%20Declaracion%20de%20variables/01.declaracion_de_variables_con_var_y_val.kt
 [asignacion de valores]: /1.%20Declaracion%20de%20variables/02.asignacion_de_valores.kt
 [inicializacion de variables]: /1.%20Declaracion%20de%20variables/03.inicializacion_de_variables.kt
@@ -43,5 +47,8 @@ __Visual Studio Code__
 [interpolacion de cadenas]: /1.%20Declaracion%20de%20variables/08.interpolacion_de_cadenas.kt
 [null safety]: /1.%20Declaracion%20de%20variables/09.null_safety.kt
 [declaracion de variables sin tipo]: /1.%20Declaracion%20de%20variables/10.declaracion_de_variables_sin_tipo.kt
+
+[sentencia if]: /2.%20Sentencias%20condicionales/01.sentencia_if.kt
+[sentencia when]: /2.%20Sentencias%20condicionales/02.sentencia_when.kt
 
 [kotlin online]: https://play.kotlinlang.org/#eyJ2ZXJzaW9uIjoiMS45LjIyIiwicGxhdGZvcm0iOiJqYXZhIiwiYXJncyI6IiIsIm5vbmVNYXJrZXJzIjp0cnVlLCJ0aGVtZSI6ImlkZWEiLCJjb2RlIjoiLyoqXG4gKiBZb3UgY2FuIGVkaXQsIHJ1biwgYW5kIHNoYXJlIHRoaXMgY29kZS5cbiAqIHBsYXkua290bGlubGFuZy5vcmdcbiAqL1xuZnVuIG1haW4oKSB7XG4gICAgcHJpbnRsbihcIkhlbGxvLCB3b3JsZCEhIVwiKVxufSJ9
