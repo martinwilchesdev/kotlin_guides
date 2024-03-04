@@ -30,8 +30,8 @@ __Visual Studio Code__
 - Operadores [[code]][operadores]
 - Concatenacion de cadenas [[code]][concatenacion de cadenas]
 - Interpolacion de cadenas [[code]][interpolacion de cadenas]
-- Null safety
-- Declaracion de variables sin tipo
+- Null safety [[code]][null safety]
+- Declaracion de variables sin tipo [[code]][declaracion de variables sin tipo]
 
 [declaracion de variables]: /1.%20Declaracion%20de%20variables/01.declaracion_de_variables_con_var_y_val.kt
 [asignacion de valores]: /1.%20Declaracion%20de%20variables/02.asignacion_de_valores.kt
@@ -41,5 +41,7 @@ __Visual Studio Code__
 [operadores]: /1.%20Declaracion%20de%20variables/06.operadores.kt
 [concatenacion de cadenas]: /1.%20Declaracion%20de%20variables/07.concatenacion_de_cadenas.kt
 [interpolacion de cadenas]: /1.%20Declaracion%20de%20variables/08.interpolacion_de_cadenas.kt
+[null safety]: /1.%20Declaracion%20de%20variables/09.null_safety.kt
+[declaracion de variables sin tipo]: /1.%20Declaracion%20de%20variables/10.declaracion_de_variables_sin_tipo.kt
 
 [kotlin online]: https://play.kotlinlang.org/#eyJ2ZXJzaW9uIjoiMS45LjIyIiwicGxhdGZvcm0iOiJqYXZhIiwiYXJncyI6IiIsIm5vbmVNYXJrZXJzIjp0cnVlLCJ0aGVtZSI6ImlkZWEiLCJjb2RlIjoiLyoqXG4gKiBZb3UgY2FuIGVkaXQsIHJ1biwgYW5kIHNoYXJlIHRoaXMgY29kZS5cbiAqIHBsYXkua290bGlubGFuZy5vcmdcbiAqL1xuZnVuIG1haW4oKSB7XG4gICAgcHJpbnRsbihcIkhlbGxvLCB3b3JsZCEhIVwiKVxufSJ9
