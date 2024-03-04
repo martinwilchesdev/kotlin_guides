@@ -38,7 +38,7 @@ __Visual Studio Code__
 [inicializacion de variables]: /1.%20Declaracion%20de%20variables/03.inicializacion_de_variables.kt
 [tipos de datos]: /1.%20Declaracion%20de%20variables/04.tipos_de_datos.kt
 [conversion de tipos de datos]: /1.%20Declaracion%20de%20variables/05.conversion_de_tipos_de_datos.kt
-[operadores]: /1.%20Declaracion%20de%20variables/06.operadores06.operadores.kt
+[operadores]: /1.%20Declaracion%20de%20variables/06.operadores.kt
 [concatenacion de cadenas]: /1.%20Declaracion%20de%20variables/07.concatenacion_de_cadenas.kt
 [interpolacion de cadenas]: /1.%20Declaracion%20de%20variables/08.interpolacion_de_cadenas.kt
 
