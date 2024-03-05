@@ -56,8 +56,11 @@ __Visual Studio Code__
 - Funciones de extension [[code]][Funciones de extension]
 
 ## 5. Estructuras de datos
-- Arreglos
-- Listas
+- Arreglos [[code]][arreglos]
+- Listas [[code]][listas]
+- Sets [[code]][sets]
+- Mapas [[code]][mapas]
+- Rangos [[code]][rangos]
 
 [declaracion de variables]: /1.%20Declaracion%20de%20variables/01.declaracion_de_variables_con_var_y_val.kt
 [asignacion de valores]: /1.%20Declaracion%20de%20variables/02.asignacion_de_valores.kt
@@ -88,5 +91,11 @@ __Visual Studio Code__
 [Funciones con parametros opcionales y valores por defecto]: /4.%20Funciones/07.funciones_con_parametros_opcionales_y_valores_por_defecto.kt
 [Funciones con parametros variables]: /4.%20Funciones/08.funciones_con_parametros_variables.kt
 [Funciones de extension]: /4.%20Funciones/09.funciones_de_extension.kt
+
+[arreglos]: /5.%20Estructuras%20de%20datos/01.arreglos.kt
+[listas]: /5.%20Estructuras%20de%20datos/02.listas.kt
+[sets]: /5.%20Estructuras%20de%20datos/03.sets.kt
+[mapas]: /5.%20Estructuras%20de%20datos/03.sets.kt
+[rangos]: /5.%20Estructuras%20de%20datos/05.rangos.kt
 
 [kotlin online]: https://play.kotlinlang.org/#eyJ2ZXJzaW9uIjoiMS45LjIyIiwicGxhdGZvcm0iOiJqYXZhIiwiYXJncyI6IiIsIm5vbmVNYXJrZXJzIjp0cnVlLCJ0aGVtZSI6ImlkZWEiLCJjb2RlIjoiLyoqXG4gKiBZb3UgY2FuIGVkaXQsIHJ1biwgYW5kIHNoYXJlIHRoaXMgY29kZS5cbiAqIHBsYXkua290bGlubGFuZy5vcmdcbiAqL1xuZnVuIG1haW4oKSB7XG4gICAgcHJpbnRsbihcIkhlbGxvLCB3b3JsZCEhIVwiKVxufSJ9
