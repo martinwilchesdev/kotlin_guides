@@ -65,4 +65,12 @@ fun main() {
         Es un tipo de dato que representa una coleccion de elementos del mismo tipo.
     */
     var v11: Array = arrayOf(1,2,3,4,5)
+
+    /**
+    * Variables sin signo
+        Las variables unicamente pueden contener valores positivos.
+
+        Para definir una variable sin signo se debe especificar un caracter "u" al final del valor asignado
+    */
+    val v12: Byte = 120u
 }

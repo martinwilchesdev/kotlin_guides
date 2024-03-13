@@ -4,4 +4,10 @@ fun main() {
     for (i in v1) {
         println(i)
     }
+
+    // Al definir un condicion if, la expresion evaluada puede ser un rango de valores
+    val v2: Int = 20
+    if (v2 in 10<=..<=99) {
+        println(v2)
+    }
 }
