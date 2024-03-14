@@ -62,6 +62,9 @@ __Visual Studio Code__
 - Mapas [[code]][mapas]
 - Rangos [[code]][rangos]
 
+## 6. Programacion orientada a objetos
+- Clases
+
 [declaracion de variables]: /1.%20Declaracion%20de%20variables/01.declaracion_de_variables_con_var_y_val.kt
 [asignacion de valores]: /1.%20Declaracion%20de%20variables/02.asignacion_de_valores.kt
 [inicializacion de variables]: /1.%20Declaracion%20de%20variables/03.inicializacion_de_variables.kt
