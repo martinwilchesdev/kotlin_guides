@@ -4,7 +4,10 @@ fun main() {
     println(v1.model)
 }
 
-// El metodo constructor de una clase se ejecuta inmediatamente cada vez que se instancia un nuevo objeto
+/**
+* El metodo constructor de una clase se ejecuta inmediatamente cada vez que se instancia un nuevo objeto
+* En la siguiente clase el metodo constructor definido es conocido como constructor primario
+*/
 class Car(var name: String, model: String, var year: Int) {
     var model: String
 
