@@ -63,7 +63,12 @@ __Visual Studio Code__
 - Rangos [[code]][rangos]
 
 ## 6. Programacion orientada a objetos
-- Clases
+- Clases [[code]][clases]
+- Constructor [[code]][constructor]
+- Constructor secundario [[code]][constructor secundario]
+
+## 7. Excepciones
+- Try, catch, finally [[code]][try catch]
 
 [declaracion de variables]: /1.%20Declaracion%20de%20variables/01.declaracion_de_variables_con_var_y_val.kt
 [asignacion de valores]: /1.%20Declaracion%20de%20variables/02.asignacion_de_valores.kt
@@ -100,5 +105,11 @@ __Visual Studio Code__
 [sets]: /5.%20Estructuras%20de%20datos/03.sets.kt
 [mapas]: /5.%20Estructuras%20de%20datos/03.sets.kt
 [rangos]: /5.%20Estructuras%20de%20datos/05.rangos.kt
+
+[clases]: /6.%20Programacion%20orientada%20a%20objetos/1.clases.kt
+[constructor]: /6.%20Programacion%20orientada%20a%20objetos/2.constructor.kt
+[constructor secundario]: /6.%20Programacion%20orientada%20a%20objetos/3.constructor_secundario.kt
+
+[try catch]: /7.%20Excepciones/1.try_catch_finally.kt
 
 [kotlin online]: https://play.kotlinlang.org/#eyJ2ZXJzaW9uIjoiMS45LjIyIiwicGxhdGZvcm0iOiJqYXZhIiwiYXJncyI6IiIsIm5vbmVNYXJrZXJzIjp0cnVlLCJ0aGVtZSI6ImlkZWEiLCJjb2RlIjoiLyoqXG4gKiBZb3UgY2FuIGVkaXQsIHJ1biwgYW5kIHNoYXJlIHRoaXMgY29kZS5cbiAqIHBsYXkua290bGlubGFuZy5vcmdcbiAqL1xuZnVuIG1haW4oKSB7XG4gICAgcHJpbnRsbihcIkhlbGxvLCB3b3JsZCEhIVwiKVxufSJ9
