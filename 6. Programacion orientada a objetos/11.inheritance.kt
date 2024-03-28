@@ -17,7 +17,7 @@ fun main() {
  * */
 open class Vehicle(protected val name: String, val color: String) {
     /**
-     * Los metodos de la clase padre pueden ser sobreescritos desde las clases hijas
+     * Los metodos de la superclase pueden ser sobreescritos dentro de las subclases que heredan
      * La palabra clave open se utiliza para especificar que un metodo podra ser sobreescrito en una subclase
      * */
     open fun move() {
@@ -29,17 +29,16 @@ open class Vehicle(protected val name: String, val color: String) {
     }
 }
 
-class Car(name: String, color: String, val engines: Int, val doors: Int): Vehicle(name, color) {
+class Car(name: String, color: String, val engines: Int, val doors: Int): Vehicle(name, color) {}
 
-}
 class Plane(name: String, color: String, val engines: Int, doors: Int): Vehicle(name, color) {
     override fun move() {
         /**
-         * El metodo move() de la clase padre es sobreescrito mediante la palabra clave override
-         * Dentro del metodo sobreescrito se invoca un nuevo metodo de la subclase
+         * El metodo move() de la clase padre es sobreescrito a traves de la palabra clave override
+         * Dentro del metodo sobreescrito se invoca un nuevo metodo definido en la subclase
          * */
         flying()
-        // super ejecuta la logica definida en el metodo de la clase padre al que invoca
+        // super ejecuta la logica definida en el metodo de la superclase a la que invoca
         super.move()
     }
 
