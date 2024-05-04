@@ -17,7 +17,7 @@ fun main() {
  * En una clase superior se definen las propiedades y metodos comunes que podran ser heredados por otras clases.
  * La palabra clave "open" se utiliza para especificar que una clase podra ser extendida.
  * */
-open class SmartDevice(val name: String, val category: String) {
+open class SmartDeviceInheritanceClass(val name: String, val category: String) {
     var deviceStatus = "Online"
 
     /**
@@ -36,7 +36,7 @@ open class SmartDevice(val name: String, val category: String) {
 
 // La definicion del constructor de la clase "smartTvDevice" pasa las propiedades recibidas al constructor de la superclase.
 class SmartTvDevice(deviceName: String, deviceCategory: String) :
-    SmartDevice(name = deviceName, category = deviceCategory) {
+    SmartDeviceInheritanceClass(name = deviceName, category = deviceCategory) {
     var speakerVolume = 2
         set(value) {
             if (value in 1..100) {
@@ -63,7 +63,7 @@ class SmartTvDevice(deviceName: String, deviceCategory: String) :
 }
 
 class SmartLightDevice(deviceName: String, deviceCategory: String) :
-    SmartDevice(name = deviceName, category = deviceCategory) {
+    SmartDeviceInheritanceClass(name = deviceName, category = deviceCategory) {
     var brightnessLevel = 0
         set(value) {
             if (value in 0..100) {
