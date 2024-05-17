@@ -27,7 +27,7 @@ class CompanionClassName {
      *          [object body]
      *      }
      * */
-    companion object StudentProgressClassName {
+    companion object StudentProgress {
         var total = 10
         var answered = 3
     }
