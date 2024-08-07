@@ -1,6 +1,7 @@
 fun main() {
     /**
      * Las funciones que muestran otras funciones o reciben funciones como parametros se denominan funciones de orden superior.
+     *
      * La funcion "repeat()" es una funcion de orden superior que representa una forma concisa de expresar un bucle for
      *      repeat(times: Int, action: (Int) -> Unit)
      *
