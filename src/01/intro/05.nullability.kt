@@ -1,5 +1,5 @@
 fun main() {
-    // En Kotlin se puede establecer una variable con el valor "null" para indicar que no tiene ningun valor
+    // En Kotlin se puede establecer una variable con el valor "null" para indicar que no tiene ningun valor inicial
     val v1 = null
     println(v1)
 
@@ -22,7 +22,7 @@ fun main() {
     val v3 = "Martin"
     println(v3!!.length)
 
-    // El operador "?:" permite asignarle a una variable un valor predeterminado cuando se le intenta asignar un valor null
+    // El operador "?:" permite asignarle a una variable un valor opcional cuando se le intenta asignar un valor null
     val v4 = v2 ?: "Martin"
     println(v3)
 }

@@ -1,5 +1,8 @@
 fun main() {
-    // La interpolacion permite incluir variables dentro de un string
+    /**
+     * La interpolacion permite incluir variables dentro de un string.
+     * Las variables interpoladas deben iniciar con el caracter "$".
+     * */
     val name = "Martin"
     val greeting = "Hello $name"
     println(greeting)

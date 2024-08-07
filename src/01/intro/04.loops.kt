@@ -4,7 +4,7 @@ fun main() {
         println(i)
     }
 
-    // El bucle forEach permite iterar una coleccion de datos, tomando como parametro una funcion lambda
+    // El bucle forEach permite iterar una coleccion de datos, tomando como parametro para la iteracion una lambda
     var v1 = listOf(1,2,3,4,5)
     v1.forEach {
         println(it)

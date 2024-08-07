@@ -18,7 +18,7 @@ fun main() {
      * Comunmente las estructuras condicionales son utilizadas como sentencias, lo cual permite
      * evaluar una expresion y ejecutar un bloque de codigo a partir del valor booleano obtenido.
      *
-     * Las estructuras condicionales como expresiones permiten a partir de la evaluacion realizada
+     * Las estructuras condicionales pueden definirse como expresiones, permitiendo a partir de la evaluacion realizada
      * asignar el ultimo valor del bloque ejecutado a una variable.
      * */
     val v2 = if(100 > 10) {
@@ -29,8 +29,8 @@ fun main() {
     println(v2)
 
     val v3 = when(v1) {
-        10 -> 10
-        100 -> 100
+        10 -> "The value is 10 (Ten)"
+        100 -> "The value is 100 (One Hundred)"
         else -> null
     }
     println(v3)
