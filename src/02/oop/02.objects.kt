@@ -8,6 +8,7 @@ fun main() {
 }
 
 class SmartDeviceObjectClass {
+    // Propiedades de la clase
     val name = "Android TV"
     val category = "Entertainment"
     val deviceStatus = "Online"
@@ -15,11 +16,12 @@ class SmartDeviceObjectClass {
     /**
      * Metodos accesores
      * - El compilador de manera interna crea metodos get() y set(value) asociadas a cada propiedad de la clase.
-     * - El metodo get() permite obtener el valor una propiedad mientras que el metodo set(value) permite modificarla.
+     * - El metodo get() permite obtener el valor una propiedad mientras que el metodo set(value) permite modificar su valor.
      * */
     var speakerVolume = 0
         /**
-         * El valor de la propiedad get() o al actualizarlo en la funcion set(), se debe usar el campo de copia de seguridad "field".
+         * Al acceder al valor de la propiedad get() o al actualizarlo set(), se debe usar el campo de copia de seguridad "field".
+         *
          * La logica de los metodos get() y set() puede ser anulada modificando su codigo por defecto.
          * */
         get() = field

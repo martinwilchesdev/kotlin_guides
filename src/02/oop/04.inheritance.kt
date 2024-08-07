@@ -1,5 +1,5 @@
 fun main() {
-    // La herencia de clases permite que una clase (subclase) herede las propiedades y metodos de otra clase (superclase).
+    // La herencia de clases permite que una subclase herede las propiedades y metodos de una superclase.
     var tv1 = SmartTvDevice("TV", "Entertainment")
     var lt1 = SmartLightDevice("Google Light", "Utility")
     lt1.turnOn()
@@ -15,6 +15,7 @@ fun main() {
 
 /**
  * En una clase superior se definen las propiedades y metodos comunes que podran ser heredados por otras clases.
+ *
  * La palabra clave "open" se utiliza para especificar que una clase podra ser extendida.
  * */
 open class SmartDeviceInheritanceClass(val name: String, val category: String) {
@@ -22,8 +23,10 @@ open class SmartDeviceInheritanceClass(val name: String, val category: String) {
 
     /**
      * Los metodos de la superclase pueden ser anulados desde la subclase.
-     * La anulacion permite que se intercepte la accion, proporcionando su propia ejecucion.
-     * La palabra clave "open" especifica que los metodos de la superclase podran ser anulados.
+     *
+     * La anulacion permite que se intercepte la accion, proporcionando su propia ejecucion desde la subclase.
+     *
+     * La palabra clave "open" que antecede al metodo especifica que los metodos de la superclase podran ser anulados.
      * */
     open fun turnOn() {
         deviceStatus = "Online"
@@ -34,7 +37,7 @@ open class SmartDeviceInheritanceClass(val name: String, val category: String) {
     }
 }
 
-// La definicion del constructor de la clase "smartTvDevice" pasa las propiedades recibidas al constructor de la superclase.
+// La definicion del constructor primario de la clase "smartTvDevice" pasa las propiedades recibidas al constructor de la superclase.
 class SmartTvDevice(deviceName: String, deviceCategory: String) :
     SmartDeviceInheritanceClass(name = deviceName, category = deviceCategory) {
     var speakerVolume = 2
@@ -78,7 +81,9 @@ class SmartLightDevice(deviceName: String, deviceCategory: String) :
 
     /**
      * Los metodos de la superclase que seran anulados desde la subclase, son antecedidos por la palabra clave "override".
+     *
      * La palabra clave "super" permite llamar al codigo definido en el metodo de la superclase.
+     *
      * El uso de la palabra clave es util para evitar la duplicidad de codigo, cuando varias subclases comparten logica similar.
      * */
     override fun turnOn() {
@@ -97,6 +102,7 @@ class SmartLightDevice(deviceName: String, deviceCategory: String) :
 /**
  ** Relacion HAS-A
  * La relacion HAS-A entre 2 clases se conoce como composicion.
+ *
  * Una clase contiene una referencia a otra clase mediante propiedades.
  */
 class SmartHome(val smartTvDevice: SmartTvDevice, val smartLightDevice: SmartLightDevice) {
