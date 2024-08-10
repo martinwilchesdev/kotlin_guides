@@ -34,4 +34,18 @@ fun main() {
         else -> null
     }
     println(v3)
+
+    // Dentro de la estructura when se puede realizar la validacion de un rango
+    val v4 = 54
+    when(v4) {
+        in 1..50 -> println("$v4 is between 1 and 50")
+        in 51..100 -> println("$v4 is between 51 and 100")
+        else -> println("$v4 doesn't belong to any range")
+    }
+
+    // Mediante la palabra clave `is` es posible evaluar el tipo de dato de un valor
+    when(v4) {
+        is Int -> println("$v4 is an integer")
+        else -> println("The data type is not recognozible")
+    }
 }
