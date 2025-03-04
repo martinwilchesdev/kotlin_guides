@@ -5,16 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6404e42-63c9-492f-ac4c-ce6b13584849" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlin_guides.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/01.variables.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/02.null_safety.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03.data_type.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/04.console.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/05.try_catch.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/06.while.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/07.arrays.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/08.lists.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/09.for.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01.variables.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/01.variables.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +31,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "martinwilchesdev"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:martinwilchesdev/kotlin_guides",
+    "accountId": "ed84a76f-ff05-4014-9c4b-45e2b638e274"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2tmoZDEce5APPM7nrU83XiTuJsw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -43,6 +55,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Kotlin.MainKt.executor": "Run",
+    "Kotlin._02_null_safetyKt.executor": "Run",
+    "Kotlin._03_data_typeKt.executor": "Run",
+    "Kotlin._04_consoleKt.executor": "Run",
+    "Kotlin._05_try_catchKt.executor": "Run",
+    "Kotlin._06_whileKt.executor": "Run",
+    "Kotlin._07_arraysKt.executor": "Run",
+    "Kotlin._08_listsKt.executor": "Run",
+    "Kotlin._09_forKt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",

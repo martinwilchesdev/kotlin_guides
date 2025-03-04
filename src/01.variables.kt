@@ -30,7 +30,6 @@ fun main() {
     /**
      * Constantes
      * */
-
     // Una constante es una variable cuyo valor no puede ser modificado
     // `val` permite definir variables de tipo constante
     val lang = "Kotlin"
